@@ -7,6 +7,9 @@ apt autoremove
 apt-get update
 
 
+# Install build essentials
+sudo apt-get install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev 
+
 #Download CUDA 10.0
 wget  --no-clobber https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
 dpkg -i cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
